@@ -16,10 +16,10 @@ padding: 0 8rem;
 @media screen and (max-width:468px){
     width: 100%;
     height: auto;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
+    border-radius: 0 0 2rem 2rem;
 }
 `
-
 export const Profile = styled.img`
 
 height: 8rem;
@@ -33,7 +33,6 @@ border-radius: 99px;
 }
 
 `
-
 export const ContainerWelcome = styled.div`
 
 display: flex;
@@ -64,7 +63,6 @@ color: ${THEME.colors.white};
 }
 
 `
-
 export const Goals = styled.h1`
 
 font-size: 2rem;
