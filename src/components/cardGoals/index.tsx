@@ -6,7 +6,7 @@ export function CardGoals() {
         <Container>
             <Icon src="device.png" />
             <Title>Notebook</Title>
-            <Goals>Meta : R$3500,99</Goals>
+            <Goals>R$3500,99</Goals>
             <BarProgress></BarProgress>
         </Container>
     )

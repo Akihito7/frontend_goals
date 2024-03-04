@@ -16,6 +16,12 @@ justify-content: center;
 
 padding: 2rem;
 
+@media screen and (min-width: 468px) and (max-width: 1024px) and (orientation: portrait) {
+  min-width: auto;
+  max-width: 20rem;
+}
+
+
 @media screen and (max-width: 468px){
  min-width: auto;
 }
@@ -51,7 +57,7 @@ export const BarProgress = styled.div`
 
 margin-top: 2rem;
 width: 100%;
-height: 8px;
+height: 1rem;
 background-color: ${THEME.colors.black};
 border-radius: 99px;
 

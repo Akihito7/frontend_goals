@@ -1,5 +1,5 @@
 import { THEME } from "../../theme";
-import { Container, ContainerIcon, Text } from "./style";
+import { Container, ContainerIcon } from "./style";
 import { Home } from "react-feather"
 
 export function Menu(){
@@ -7,15 +7,15 @@ export function Menu(){
         <Container>
             <ContainerIcon>
                 <Home color={THEME.colors.light_gray}></Home>
-                <Text>Home</Text>
+        
             </ContainerIcon>
             <ContainerIcon>
                 <Home color={THEME.colors.light_gray}></Home>
-                <Text>Home</Text>
+                
             </ContainerIcon>
             <ContainerIcon>
                 <Home color={THEME.colors.light_gray}></Home>
-                <Text>Home</Text>
+               
             </ContainerIcon>
 
         </Container>

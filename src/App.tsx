@@ -1,9 +1,10 @@
+import { Goals } from "./pages/appPages/goals"
 import { Home } from "./pages/appPages/home"
 
 function App() {
 
   return (
-    <Home></Home>
+    <Goals></Goals>
   )
 }
 

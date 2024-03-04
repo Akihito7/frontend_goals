@@ -11,6 +11,7 @@ background-color: ${THEME.colors.black};
 @media screen and (max-width:468px){
     height: auto;
 }
+
 `
 
 export const ContainerCardGoals = styled.div`
@@ -18,6 +19,13 @@ export const ContainerCardGoals = styled.div`
 display: flex;
 gap: 2rem;
 overflow-x: auto;
+
+
+@media screen and (min-width: 468px) and (max-width: 1024px) and (orientation: portrait) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
 
 @media screen and (max-width:468px){
     display: grid;
@@ -59,6 +67,11 @@ border: none;
 display: flex;
 justify-content: center;
 align-items: center;
+
+@media screen and (min-width: 468px) and (max-width: 1024px) and (orientation: portrait) {
+    min-width: auto;
+    max-width: 20rem;
+}
 
 
 @media screen and (max-width:468px){

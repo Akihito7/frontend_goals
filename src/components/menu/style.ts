@@ -17,6 +17,7 @@ gap: 5rem;
 
 @media screen and (max-width:468px){
     position: fixed;
+    padding: 1.5rem;
 
 }
 
@@ -29,13 +30,5 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-`
-
-export const Text = styled.p`
-
-font-size: 1.2rem;
-font-weight: bold;
-color: ${THEME.colors.light_gray};
 
 `
