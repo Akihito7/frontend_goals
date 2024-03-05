@@ -1,11 +1,13 @@
 import { Goals } from "./pages/appPages/goals"
 import { Home } from "./pages/appPages/home"
+import { NewGoal } from "./pages/appPages/newGoal"
 
 function App() {
 
   return (
-    <Goals></Goals>
+    <NewGoal></NewGoal>
   )
 }
 
 export default App
+    

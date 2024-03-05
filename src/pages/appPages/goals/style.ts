@@ -107,6 +107,7 @@ font-size: 2rem;
 font-weight: bold;
 color: ${THEME.colors.white};
 max-width: 34rem;
+border: none;
 `
 export const OtherGoals = styled.div`
 
